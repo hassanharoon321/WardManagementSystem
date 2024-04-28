@@ -3,7 +3,8 @@ const { Client } = require("pg");
 // (model, view (FE), controller(function itself))
 
 const client = new Client({
-  user: "natashaishak",
+  // user: "natashaishak",
+  user: "postgres",
   password: "123456",
   host: "localhost",
   port: "5432",
